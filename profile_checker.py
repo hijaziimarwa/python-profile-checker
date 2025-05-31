@@ -11,3 +11,10 @@ print(f"GPA: {gpa}")
 print(f"Field of interest: {field_of_interest}")
 print(f"Graduated: {has_graduated}")
 print("====================================")
+
+if age<25 and gpa>3.5 and has_graduated=="yes":
+    print("Congrats! You are eligible for a scholarship")
+elif age<30 and gpa>2.5:
+    print("You are eligible for an internship")
+else:
+    print("Sorry! Apply again later")
