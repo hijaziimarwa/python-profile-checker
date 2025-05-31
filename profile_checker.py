@@ -4,5 +4,10 @@ gpa = float(input("Enter your score (0-5): "))
 field_of_interest = input("Enter your field of interest: ")
 has_graduated = input("Are you graduated? (yes/no): ")
 
-
-
+print("========= Student Profile ==========")
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"GPA: {gpa}")
+print(f"Field of interest: {field_of_interest}")
+print(f"Graduated: {has_graduated}")
+print("====================================")
